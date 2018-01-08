@@ -1,6 +1,7 @@
 # HSFMacroTool
 swift4宏常用宏定义
 import UIKit
+```swift
 // MARK: ===================================变量宏定义=========================================
 // MARK: 系统相关
 /// Info
@@ -96,4 +97,4 @@ public let HexRGBAlpha:((Int,Float) -> UIColor) = { (rgbValue : Int, alpha : Flo
 public let RGBAlpa:((Float,Float,Float,Float) -> UIColor ) = { (r: Float, g: Float , b: Float , a: Float ) -> UIColor in
     return UIColor.init(red: CGFloat(CGFloat(r)/255.0), green: CGFloat(CGFloat(g)/255.0), blue: CGFloat(CGFloat(b)/255.0), alpha: CGFloat(a))
 }
-
+```
